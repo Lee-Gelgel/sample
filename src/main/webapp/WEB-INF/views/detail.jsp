@@ -59,7 +59,7 @@
     <div class="carousel-item">
       <img class="d-block w-100" src="/static/images/good1.jpg" alt="Second slide">
       <div class="carousel-caption">
-        사진2
+        lulu test zzzzzzzzzzzzzzzzzzzzzzzzzzzz
       </div>
     </div>
     <div class="carousel-item">
