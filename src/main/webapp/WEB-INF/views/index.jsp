@@ -50,27 +50,27 @@
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <!-- <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="/static/images/sky.jpg" alt="First slide">
-      <div class="carousel-caption">
+      <img class="d-block w-100" src="/static/images/main_house2.png" alt="First slide">
+<!--       <div class="carousel-caption">
         오대산 힐링타운 은빛동 입니다.
-      </div>
+      </div> -->
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="/static/images/good1.jpg" alt="Second slide">
-      <div class="carousel-caption">
+      <img class="d-block w-100" src="/static/images/main_msg.jpg" alt="Second slide">
+<!--       <div class="carousel-caption">
         사진2
-      </div>
+      </div> -->
     </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="/static/images/good2.jpg" alt="Third slide">
+<!--     <div class="carousel-item">
+      <img class="d-block w-100" src="/static/images/main_msg.jpg" alt="Third slide">
       <div class="carousel-caption">
         사진3
       </div>
-    </div>
+    </div> -->
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
