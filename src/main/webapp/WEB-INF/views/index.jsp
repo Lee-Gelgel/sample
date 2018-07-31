@@ -33,11 +33,11 @@
           객실소개
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#first">침대방</a>
+          <a class="dropdown-item" href="#first">가족방</a>
           <a class="dropdown-item" href="#second">침대방</a>
           <a class="dropdown-item" href="#third">온돌방</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">편의시설</a>
+          <a class="dropdown-item" href="#">편의 시설</a>
           <a class="dropdown-item" href="#">이용 및 요금 안내</a>
         </div>
       </li>
@@ -99,11 +99,10 @@
 자연과 함께 숨쉬는 공간 
 은빛동에 오신 여러분을 환영합니다 ~
 
-소중한 사람들과 행복한 추억만들기
-사랑하는 연인과 가족들과 잊지 못할 추억만들기
-
+소중한 친구 또는 
+사랑하는 연인, 가족과 함께
 기분좋은 휴식을 꿈꾸는 여러분을 위해 
-자연과 하나되는 편안한 공간을 준비했습니다.
+자연과 하나되는 공간을 준비했습니다.
 
 여러분의 편안한 휴식과 힐링을 위해 
 최고의 친절과 서비스로 정성을 다하는 
@@ -120,7 +119,8 @@
         <div class="row">
           <div class="col-lg-4" align="center">
             <img class="rounded-circle" src="/static/images/family_room.jpg" alt="가족방" width="140" height="140">
-            <h2>가족방</h2>
+                        <p></p>
+            <h5>가족방</h5>
             <div style="display: block; text-align: left;">가족방 입니다.</div>
             <p><a class="btn btn-secondary" href="/detail" role="button">상세보기 &raquo;</a></p>
             <!-- Button trigger modal -->
@@ -151,13 +151,15 @@
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4" align="center">
             <img class="rounded-circle" src="/static/images/bedroom.jpg" alt="침대방" width="140" height="140">
-            <h2>침대방</h2>
+                        <p></p>
+            <h5>침대방</h5>
             <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
             <p><a class="btn btn-secondary" href="#" role="button">상세보기 &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4" align="center">
             <img class="rounded-circle" src="/static/images/ondolroom.jpg" alt="온돌방" width="140" height="140">
-            <h2>온돌방</h2>
+                        <p></p>
+            <h5>온돌방</h5>
             <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
             <p><a class="btn btn-secondary" href="#" role="button">상세보기 &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
@@ -170,14 +172,16 @@
           <div ></div>
           <div class="col-lg-2"></div>
           <div class="col-lg-4" align="center">
-            <img class="rounded-circle" src="/static/images/lounge.jpg" alt="편의시설" width="140" height="140">
-            <h2>편의시설</h2>
+            <img class="rounded-circle" src="/static/images/lounge.jpg" alt="편의 시설" width="140" height="140" >
+            <p></p>
+            <h5>편의 시설</h5>
             <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
             <p><a class="btn btn-secondary" href="/detail" role="button">상세보기 &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4" align="center">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="이용 및 요금 안내" width="140" height="140">
-            <h2>이용 및 요금 안내</h2>
+            <img class="rounded-circle" src="/static/images/wallet.png" alt="이용 및 요금 안내" width="140" height="140">
+                        <p></p>
+            <h5>이용 및 요금 안내</h5>
             <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
             <p><a class="btn btn-secondary" href="#" role="button">상세보기 &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
@@ -231,7 +235,7 @@
       </div><!-- /.container -->
 		<div style="text-align: center; "><strong>오대산 힐링타운 은빛동</strong></div>
 		<div style="text-align: center;">대표자 : 김미숙</div>
-        <div style="text-align: center;">☎ : 010-8978-0196</div>
+        <div style="text-align: center;">☏ : 010-8978-0196</div>
         <div style="text-align: center;">033) 335-8978</div>
         <div style="text-align: center;">강원도 평창군 진부면 간평리 109-38</div>    
         <div style="text-align: center;">사업자등록번호 : 123-45-67890</div>  
