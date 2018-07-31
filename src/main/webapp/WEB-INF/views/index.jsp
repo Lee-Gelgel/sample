@@ -38,7 +38,7 @@
           <a class="dropdown-item" href="#third">온돌방</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">편의시설</a>
-          <a class="dropdown-item" href="#">요금안내</a>
+          <a class="dropdown-item" href="#">이용 및 요금 안내</a>
         </div>
       </li>
       <li class="nav-item">
@@ -176,8 +176,8 @@
             <p><a class="btn btn-secondary" href="/detail" role="button">상세보기 &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4" align="center">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="요금안내" width="140" height="140">
-            <h2>요금안내</h2>
+            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="이용 및 요금 안내" width="140" height="140">
+            <h2>이용 및 요금 안내</h2>
             <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
             <p><a class="btn btn-secondary" href="#" role="button">상세보기 &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
