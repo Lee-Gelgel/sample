@@ -124,27 +124,95 @@
             <div style="display: block; text-align: left;">가족방 입니다.</div>
             <p><a class="btn btn-secondary" href="/detail" role="button">상세보기 &raquo;</a></p>
             <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
   상세보기 &raquo;
 </button>
 <!-- Modal -->
-<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog" role="document">
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalCenterTitle">가족방 상세정보</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        <img class="featurette-image img-fluid mx-auto" style="width: 500px;height: 500px;" src="/static/images/back2.jpg" alt="Generic placeholder image">
-        <img class="featurette-image img-fluid mx-auto" style="width: 500px;height: 500px;" src="/static/images/back4.jpg" alt="Generic placeholder image">
+      	<div id="carouselExampleIndicators_modal" class="carousel slide" data-ride="carousel" style="margin-top: 0">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators_modal" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators_modal" data-slide-to="1"></li>
+    <!-- <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="/static/images/main_house2.png" alt="First slide">
+<!--       <div class="carousel-caption">
+        오대산 힐링타운 은빛동 입니다.
+      </div> -->
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="/static/images/main_msg.jpg" alt="Second slide">
+<!--       <div class="carousel-caption">
+        사진2
+      </div> -->
+    </div>
+<!--     <div class="carousel-item">
+      <img class="d-block w-100" src="/static/images/main_msg.jpg" alt="Third slide">
+      <div class="carousel-caption">
+        사진3
       </div>
-      <div class="modal-footer">
+    </div> -->
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators_modal" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators_modal" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<div>
+	<div align="center" style="display: inline-block; ">
+	<img src="/static/icon/4person.png" width="64px" height="64px">
+	<div >4인실</div>
+	</div>
+	<div align="center" style="display: inline-block; ">
+	<img src="/static/icon/4person.png" width="64px" height="64px">
+	<div >4인실</div>
+	</div>
+	<div align="center" style="display: inline-block; ">
+	<img src="/static/icon/4person.png" width="64px" height="64px">
+	<div >4인실</div>
+	</div>
+	<div align="center" style="display: inline-block; ">
+	<img src="/static/icon/4person.png" width="64px" height="64px">
+	<div >4인실</div>
+	</div>
+	<div align="center" style="display: inline-block; ">
+	<img src="/static/icon/4person.png" width="64px" height="64px">
+	<div >4인실</div>
+	</div>
+	<div align="center" style="display: inline-block; ">
+	<img src="/static/icon/4person.png" width="64px" height="64px">
+	<div >4인실</div>
+	</div>
+	<div align="center" style="display: inline-block; ">
+	<img src="/static/icon/4person.png" width="64px" height="64px">
+	<div >4인실</div>
+	</div>
+	<div align="center" style="display: inline-block; ">
+	<img src="/static/icon/4person.png" width="64px" height="64px">
+	<div >4인실</div>
+	</div>
+</div>
+
+      </div>
+      <!-- <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+      </div> -->
     </div>
   </div>
 </div>
@@ -250,16 +318,19 @@
       
 </body>
 <script>
+var modal_check = false;
 $(document).ready(function () {
+	  
 	  $(".navbar-nav li a").click(function(event) {
 		if (this.hash !== ""){
 			$(".navbar-collapse").collapse('hide');	
 		}
 	  });
 	  
-	  $('#exampleModalLong').on('show.bs.modal', function (event) {
+	  $('#exampleModalCenter').on('show.bs.modal', function (event) {
+		  modal_check = true;
 		  /* $("html, body").addClass("not_scroll"); */
-		  document.addEventListener('touchmove', handleTouchMove, isPassive() ? {
+		 document.addEventListener('touchmove', handleTouchMove, isPassive() ? {
 			 	capture: false,
 			 	passive: false
 			} : false);
@@ -270,7 +341,8 @@ $(document).ready(function () {
 			} : true); */
 		});
 
-	$('#exampleModalLong').on('hidden.bs.modal', function (e) {
+	$('#exampleModalCenter').on('hidden.bs.modal', function (e) {
+		modal_check = false;
 		/* $("html, body").removeClass("not_scroll"); */
 		document.removeEventListener('touchmove', handleTouchMove);
 	});
@@ -304,13 +376,19 @@ jQuery(document).ready(function(){
 	  var hash = this.hash;
 	  // Using jQuery's animate() method to add smooth page scroll
 	  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-	  jQuery('html, body').animate({
-	    scrollTop: jQuery(hash).offset().top-55
-	  }, 800, function(){
+	  if(modal_check){
+		  
+	  } else {
+		  jQuery('html, body').animate({
+			    scrollTop: jQuery(hash).offset().top-55
+			  }, 800, function(){
 
-	    // Add hash (#) to URL when done scrolling (default click behavior)
-	    // window.location.hash = hash-55;
-	  });
+			    // Add hash (#) to URL when done scrolling (default click behavior)
+			    // window.location.hash = hash-55;
+			  });  
+	  }
+	  
+	  
 	} // End if
 	});
 	});
