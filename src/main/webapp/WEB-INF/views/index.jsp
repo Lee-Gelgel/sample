@@ -15,7 +15,7 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-  <a class="navbar-brand" href="#home">오대산 힐링타운 은빛동</a>
+  <a class="navbar-brand" href="#home"><strong>오대산 힐링타운 은빛동</strong></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -56,7 +56,7 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="/static/images/main_house2.png" alt="First slide">
+      <img class="d-block w-100" src="/static/images/main_house.png" alt="First slide">
 <!--       <div class="carousel-caption">
         오대산 힐링타운 은빛동 입니다.
       </div> -->
@@ -119,7 +119,7 @@
         <!-- Three columns of text below the carousel -->
         <div class="row">
           <div class="col-lg-4" align="center">
-            <img class="rounded-circle" src="/static/images/main_house2.png" alt="Generic placeholder image" width="140" height="140">
+            <img class="rounded-circle" src="/static/images/family_room.jpg" alt="가족방" width="140" height="140">
             <h2>가족방</h2>
             <div style="display: block; text-align: left;">가족방 입니다.</div>
             <p><a class="btn btn-secondary" href="/detail" role="button">상세보기 &raquo;</a></p>
@@ -150,13 +150,13 @@
 </div>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4" align="center">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+            <img class="rounded-circle" src="/static/images/bedroom.jpg" alt="침대방" width="140" height="140">
             <h2>침대방</h2>
             <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
             <p><a class="btn btn-secondary" href="#" role="button">상세보기 &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4" align="center">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+            <img class="rounded-circle" src="/static/images/ondolroom.jpg" alt="온돌방" width="140" height="140">
             <h2>온돌방</h2>
             <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
             <p><a class="btn btn-secondary" href="#" role="button">상세보기 &raquo;</a></p>
@@ -170,13 +170,13 @@
           <div ></div>
           <div class="col-lg-2"></div>
           <div class="col-lg-4" align="center">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+            <img class="rounded-circle" src="/static/images/lounge.jpg" alt="편의시설" width="140" height="140">
             <h2>편의시설</h2>
             <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
             <p><a class="btn btn-secondary" href="/detail" role="button">상세보기 &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4" align="center">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="요금안내" width="140" height="140">
             <h2>요금안내</h2>
             <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
             <p><a class="btn btn-secondary" href="#" role="button">상세보기 &raquo;</a></p>
@@ -231,10 +231,10 @@
       </div><!-- /.container -->
 		<div style="text-align: center; "><strong>오대산 힐링타운 은빛동</strong></div>
 		<div style="text-align: center;">대표자 : 김미숙</div>
-        <div style="text-align: center;">문의예약번호 : 010-8978-0196</div>
+        <div style="text-align: center;">☎ : 010-8978-0196</div>
         <div style="text-align: center;">033) 335-8978</div>
-        <div style="text-align: center;">사업자등록번호 : 123-45-67890</div>  
         <div style="text-align: center;">강원도 평창군 진부면 간평리 109-38</div>    
+        <div style="text-align: center;">사업자등록번호 : 123-45-67890</div>  
       <footer class="container footer" id="footer">
        <!-- <div class="d-none d-sm-block">
         <p class="float-right"><a href="#home">Back to top</a></p>
@@ -670,7 +670,7 @@ var options = { //지도를 생성할 때 필요한 기본 옵션
 
 var map = new daum.maps.Map(container, options); //지도 생성 및 객체 리턴
 
-var imageSrc = '/static/images/home.png', // 마커이미지의 주소입니다    
+var imageSrc = '/static/images/map_icon.png', // 마커이미지의 주소입니다    
 	imageSize = new daum.maps.Size(42, 48), // 마커이미지의 크기입니다
 	imageOption = {offset: new daum.maps.Point(22, 25)}; // 마커이미지의 옵션입니다. 마커의 좌표와 일치시킬 이미지 안에서의 좌표를 설정합니다.
 
