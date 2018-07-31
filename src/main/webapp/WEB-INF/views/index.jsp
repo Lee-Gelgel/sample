@@ -82,35 +82,12 @@
   </a>
 </div>
 
+        
       <div class="container marketing">
-        <!-- Three columns of text below the carousel -->
-        <div class="row">
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>동그라미하나</h2>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-            <p><a class="btn btn-secondary" href="/detail" role="button">View details &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>동그라미둘</h2>
-            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>동그라미셋</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-        </div><!-- /.row -->
+      
+      <!-- <hr class="featurette-divider" id="first"> -->
 
-
-        <!-- START THE FEATURETTES -->
-
-        <hr class="featurette-divider" id="first">
-
-        <div class="row featurette">
+        <div class="row featurette" id="first">
           <div class="col-md-7">
             <h2 class="featurette-heading">은빛동소개 <span class="text-muted">It'll blow your mind.</span></h2>
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
@@ -119,8 +96,80 @@
             <img class="featurette-image img-fluid mx-auto" style="width: 500px;height: 500px;" src="/static/images/back3.jpg" alt="Generic placeholder image">
           </div>
         </div>
+        
+        <hr>
+      
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+          <div class="col-lg-4" align="center">
+            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+            <h2>가족방</h2>
+            <div style="display: block; text-align: left;">가족방 입니다.</div>
+            <p><a class="btn btn-secondary" href="/detail" role="button">상세보기 &raquo;</a></p>
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+  상세보기 &raquo;
+</button>
+<!-- Modal -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img class="featurette-image img-fluid mx-auto" style="width: 500px;height: 500px;" src="/static/images/back2.jpg" alt="Generic placeholder image">
+        <img class="featurette-image img-fluid mx-auto" style="width: 500px;height: 500px;" src="/static/images/back4.jpg" alt="Generic placeholder image">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4" align="center">
+            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+            <h2>침대방</h2>
+            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">상세보기 &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4" align="center">
+            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+            <h2>온돌방</h2>
+            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">상세보기 &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+        <hr>
+        <div class="container marketing">
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+          <div ></div>
+          <div class="col-lg-2"></div>
+          <div class="col-lg-4" align="center">
+            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+            <h2>부대시설</h2>
+            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+            <p><a class="btn btn-secondary" href="/detail" role="button">상세보기 &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4" align="center">
+            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+            <h2>동그라미둘</h2>
+            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">상세보기 &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-2"></div>
+        </div><!-- /.row -->
+</div>
 
-        <hr class="featurette-divider" id="second">
+        <!-- START THE FEATURETTES -->
+
+        <!-- <hr class="featurette-divider" id="second">
 
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
@@ -144,17 +193,19 @@
           </div>
         </div>
 
-        <hr class="featurette-divider">
+        <hr class="featurette-divider"> -->
 
         <!-- /END THE FEATURETTES -->
-        
+		
+		<hr class="featurette-divider">
+		        
         <div class="row featurette" id="gotomap">
           <div class="col-md-7 order-md-2">
             <h2 class="featurette-heading">오시는길 <span class="text-muted">See for yourself.</span></h2>
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
           </div>
           <div class="col-md-5 order-md-1">
-            <div id="map" class="rounded" style="width:70%;height:400px;"></div>
+            <div id="map" class="rounded" style="width:100%;height:400px;"></div>
           </div>
         </div>
 		
@@ -185,7 +236,41 @@ $(document).ready(function () {
 			$(".navbar-collapse").collapse('hide');	
 		}
 	  });
+	  
+	  $('#exampleModalLong').on('show.bs.modal', function (event) {
+		  /* $("html, body").addClass("not_scroll"); */
+		  document.addEventListener('touchmove', handleTouchMove, isPassive() ? {
+			 	capture: false,
+			 	passive: false
+			} : false);
+		  
+		  /* documont.getElementById("exampleModalLong")addEventListener('touchmove', function(){true;}, isPassive() ? {
+			 	capture: false,
+			 	passive: false
+			} : true); */
+		});
+
+	$('#exampleModalLong').on('hidden.bs.modal', function (e) {
+		/* $("html, body").removeClass("not_scroll"); */
+		document.removeEventListener('touchmove', handleTouchMove);
 	});
+	  
+	});
+	
+function handleTouchMove(e) {
+	  e.preventDefault();
+	}
+function isPassive() {
+    var supportsPassiveOption = false;
+    try {
+        addEventListener("test", null, Object.defineProperty({}, 'passive', {
+            get: function () {
+                supportsPassiveOption = true;
+            }
+        }));
+    } catch(e) {}
+    return supportsPassiveOption;
+}
 
 jQuery(document).ready(function(){
 	// Add smooth scrolling to all links
@@ -560,7 +645,7 @@ $('.carousel').carousel({
 var container = document.getElementById('map'); //지도를 담을 영역의 DOM 레퍼런스
 var options = { //지도를 생성할 때 필요한 기본 옵션
 	center: new daum.maps.LatLng(37.711725185162784, 128.5996566509867), //지도의 중심좌표.
-	level: 3//지도의 레벨(확대, 축소 정도)
+	level: 2//지도의 레벨(확대, 축소 정도)
 };
 
 var map = new daum.maps.Map(container, options); //지도 생성 및 객체 리턴
@@ -613,18 +698,16 @@ var customOverlay = new daum.maps.CustomOverlay({
 var zoomControl = new daum.maps.ZoomControl();
 map.addControl(zoomControl, daum.maps.ControlPosition.RIGHT);
 
-
-
-
 </script>
 <style>
 /* Carousel base class */
 .carousel {
   max-height: 100%;
   max-height: 500px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   margin-top : 50px;
-  height:auto;
+  overflow: hidden;
+  
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -634,27 +717,38 @@ map.addControl(zoomControl, daum.maps.ControlPosition.RIGHT);
 
 /* Declare heights because of positioning of img element */
 .carousel .carousel-item {
-  max-height: 100%;
+  /* max-height: 100%; */
   max-height: 500px;
+  /* width : auto; */
+   overflow: hidden;
   background-color: #777;
 }
 .carousel-inner > .carousel-item > img {
  /*  position: absolute;*/
+  overflow: hidden;
   top: 0;
   left: 0;
-  min-width: 40%;
-  max-width: 100%;
+  /* min-width: 40%;
+  max-width: 100%; */
   max-height: 100%;
   width: auto;
   margin-right:auto;
   margin-left:auto;
-  height:auto;
+ 
 }
 .customoverlay {position:relative;bottom:45px;border-radius:6px;border: 1px solid #ccc;border-bottom:2px solid #ddd;float:left;}
 .customoverlay:nth-of-type(n) {border:0; box-shadow:0px 1px 2px #888;}
 .customoverlay a {display:block;text-decoration:none;color:#000;text-align:center;border-radius:6px;font-size:14px;font-weight:bold;overflow:hidden;background: #d95050;}
 .customoverlay .title {display:block;text-align:center;background:#fff;padding:10px 15px;font-size:14px;font-weight:bold;}
 .customoverlay:after {content:'';position:absolute;margin-left:-20px;left:50%;bottom:-12px;width:22px;height:12px;background:url('http://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white.png')}
+.not_scroll{
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    height: 100%
+}
+
+
 </style>
 </html>
 
