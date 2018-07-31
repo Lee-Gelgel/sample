@@ -33,10 +33,12 @@
           객실소개
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#first">침대방</a>
           <a class="dropdown-item" href="#second">침대방</a>
           <a class="dropdown-item" href="#third">온돌방</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
+          <a class="dropdown-item" href="#">편의시설</a>
+          <a class="dropdown-item" href="#">요금안내</a>
         </div>
       </li>
       <li class="nav-item">
@@ -88,21 +90,36 @@
       <!-- <hr class="featurette-divider" id="first"> -->
 
         <div class="row featurette" id="first">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">은빛동소개 <span class="text-muted">It'll blow your mind.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-          </div>
-          <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto" style="width: 500px;height: 500px;" src="/static/images/back3.jpg" alt="Generic placeholder image">
+          <div class="col-md-12">
+            <h2 class="featurette-heading">은빛동소개 <!-- <span class="text-muted">It'll blow your mind.</span> --></h2>
+            <br>
+            <pre class="lead" style="text-align: center; line-height: 1.2em; font-size: 17px">안녕하세요 ^^~
+"오대산 힐링타운 은빛동" 입니다!
+
+자연과 함께 숨쉬는 공간 
+은빛동에 오신 여러분을 환영합니다 ~
+
+소중한 사람들과 행복한 추억만들기
+사랑하는 연인과 가족들과 잊지 못할 추억만들기
+
+기분좋은 휴식을 꿈꾸는 여러분을 위해 
+자연과 하나되는 편안한 공간을 준비했습니다.
+
+여러분의 편안한 휴식과 힐링을 위해 
+최고의 친절과 서비스로 정성을 다하는 
+오대산 힐링타운 은빛동이 되겠습니다.
+
+감사합니다!</pre>
           </div>
         </div>
         
         <hr>
-      
+      	<h2 class="featurette-heading">객실소개 <!-- <span class="text-muted">It'll blow your mind.</span> --></h2>
+       <br>
         <!-- Three columns of text below the carousel -->
         <div class="row">
           <div class="col-lg-4" align="center">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+            <img class="rounded-circle" src="/static/images/main_house2.png" alt="Generic placeholder image" width="140" height="140">
             <h2>가족방</h2>
             <div style="display: block; text-align: left;">가족방 입니다.</div>
             <p><a class="btn btn-secondary" href="/detail" role="button">상세보기 &raquo;</a></p>
@@ -145,7 +162,8 @@
             <p><a class="btn btn-secondary" href="#" role="button">상세보기 &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
-        <hr>
+        <br>
+        <br>
         <div class="container marketing">
         <!-- Three columns of text below the carousel -->
         <div class="row">
@@ -153,13 +171,13 @@
           <div class="col-lg-2"></div>
           <div class="col-lg-4" align="center">
             <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>부대시설</h2>
+            <h2>편의시설</h2>
             <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
             <p><a class="btn btn-secondary" href="/detail" role="button">상세보기 &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4" align="center">
             <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>동그라미둘</h2>
+            <h2>요금안내</h2>
             <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
             <p><a class="btn btn-secondary" href="#" role="button">상세보기 &raquo;</a></p>
           </div><!-- /.col-lg-4 -->
@@ -198,10 +216,10 @@
         <!-- /END THE FEATURETTES -->
 		
 		<hr class="featurette-divider">
-		        
+		    <h2 class="featurette-heading">오시는길 <!-- <span class="text-muted">See for yourself.</span> --></h2>   
+		    <br> 
         <div class="row featurette" id="gotomap">
           <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">오시는길 <span class="text-muted">See for yourself.</span></h2>
             <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
           </div>
           <div class="col-md-5 order-md-1">
@@ -211,20 +229,22 @@
 		
 		<hr>
       </div><!-- /.container -->
-      
+		<div style="text-align: center; "><strong>오대산 힐링타운 은빛동</strong></div>
+		<div style="text-align: center;">대표자 : 김미숙</div>
+        <div style="text-align: center;">문의예약번호 : 010-8978-0196</div>
+        <div style="text-align: center;">033) 335-8978</div>
+        <div style="text-align: center;">사업자등록번호 : 123-45-67890</div>  
+        <div style="text-align: center;">강원도 평창군 진부면 간평리 109-38</div>    
       <footer class="container footer" id="footer">
-       <div class="d-none d-sm-block">
+       <!-- <div class="d-none d-sm-block">
         <p class="float-right"><a href="#home">Back to top</a></p>
         <p>오대산 힐링타운 은빛동 | 김미숙 | 문의예약번호 :012-3456-7890 |강원도 평창군 진부면 간평리 109-38 | 사업자등록번호 : 123-45-67890</p>
        </div>
-       <div class="d-block d-sm-none">
+       <div class="d-block d-sm-none"> -->
        	<p class="float-right"><a href="#home">Back to top</a></p>
-        <div>오대산 힐링타운 은빛동 | 김미숙</div>
-        <div>문의예약번호 :012-3456-7890</div>
-        <div>강원도 평창군 진부면 간평리 109-38</div>
-        <div>사업자등록번호 : 123-45-67890</div>
         
-       </div>
+        
+       <!-- </div> -->
       </footer>
       
       
