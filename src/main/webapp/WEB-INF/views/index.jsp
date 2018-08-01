@@ -631,7 +631,27 @@
 									</button>
 								</div>
 								<div class="modal-body">
-									ddd
+									<table border="1">
+									<tr>
+										<th width="25%"></th><th colspan="2" width="25%">비수기</th><th colspan="2" width="25%">성수기</th><th colspan="2" width="25%">인원수</th>
+									</tr>
+									<tr>
+										<th>구분</th><th>일~금</th><th>토</th><th>일~금</th><th>토</th><th>기준</th><th>최대</th>
+									</tr>
+									<tr>
+										<th>가족방</th><th colspan="4">15만원</th><th>6명</th><th>9명</th>
+									</tr>
+									<tr>
+										<th>침대방(트윈)</th><th>6만원</th><th>7만원</th><th>8만원</th><th>9만원</th><th>2명</th><th>3명</th>
+									</tr>
+									<tr>
+										<th>침대방(싱글)</th><th>5만원</th><th>6만원</th><th>7만원</th><th>8만원</th><th>2명</th><th>3명</th>
+									</tr>
+									<tr>
+										<th>온돌방</th><th>5만원</th><th>6만원</th><th>7만원</th><th>8만원</th><th>2명</th><th>3명</th>
+									</tr>
+									</table>
+									<p> * 초과 인원은 1인당 1만원씩 추가 요금 있습니다.<br>* 성수기 : 7/31~8/15, 10/1~10/25</p>
 								</div>
 							</div>
 						</div>
@@ -1266,6 +1286,9 @@
 .vertical-align {
 	display: flex;
 	align-items: center;
+}
+th{
+text-align: center;
 }
 </style>
 </html>
