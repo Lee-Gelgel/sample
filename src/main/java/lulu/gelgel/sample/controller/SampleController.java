@@ -13,11 +13,4 @@ public class SampleController {
 		mv.setViewName("index");
 		return mv;
 	}
-	
-	@RequestMapping("/detail")
-	public ModelAndView detail() {
-		ModelAndView mv = new ModelAndView();
-		mv.setViewName("detail");
-		return mv;
-	}
 }
