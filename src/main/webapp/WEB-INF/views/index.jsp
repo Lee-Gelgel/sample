@@ -70,11 +70,11 @@
 		</ol>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img class="d-block w-100" src="/static/images/main_house.png"
+				<img class="d-block w-100" src="/static/images/main_house3.png"
 					alt="First slide">
 			</div>
 			<div class="carousel-item">
-				<img class="d-block w-100" src="/static/images/main_msg.jpg"
+				<img class="d-block w-100" src="/static/images/main_msg3.jpg"
 					alt="Second slide">
 			</div>
 		</div>
@@ -1180,8 +1180,9 @@
 <style>
 /* Carousel base class */
 .carousel {
-	max-height: 100%;
-/* 	max-height: 606px; */
+	margin:auto;
+	width: 80%;
+	height: 60%;
 	margin-bottom: 20px;
 	margin-top: 50px;
 	overflow: hidden;
@@ -1196,20 +1197,19 @@
 .carousel .carousel-item {
 	/* max-height: 100%; */
 /* 	max-height: 606px; */
-	/* width : auto; */
+/* 	width : 70%;
 	overflow: hidden;
+	align: center; */
 	background-color: #777;
 }
 
 .carousel-inner>.carousel-item>img {
 	/*  position: absolute;*/
+
+/* 	width:75%; */
 	overflow: hidden;
 	top: 0;
 	left: 0;
-	/* min-width: 40%;
-  max-width: 100%; */
-	max-height: 100%;
-	width: auto;
 	margin-right: auto;
 	margin-left: auto;
 }
