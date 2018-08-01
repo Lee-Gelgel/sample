@@ -1181,7 +1181,7 @@
 /* Carousel base class */
 .carousel {
 	max-height: 100%;
-	max-height: 500px;
+/* 	max-height: 606px; */
 	margin-bottom: 20px;
 	margin-top: 50px;
 	overflow: hidden;
@@ -1195,7 +1195,7 @@
 /* Declare heights because of positioning of img element */
 .carousel .carousel-item {
 	/* max-height: 100%; */
-	max-height: 500px;
+/* 	max-height: 606px; */
 	/* width : auto; */
 	overflow: hidden;
 	background-color: #777;
