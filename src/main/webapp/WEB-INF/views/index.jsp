@@ -10,7 +10,7 @@
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script
-	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+	src="https://cdnjs.cloudflare.com/ajax/libs/spopper.js/1.14.0/umd/popper.min.js"></script>
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 <script type="text/javascript"
@@ -692,9 +692,6 @@
 <script>
 	var modal_check = false;
 	$(document).ready(
-			$('#carouselExampleIndicators').on('slide.bs.carousel', function () {
-				  alert("aaa");
-				})
 			function() {
 
 				$(".navbar-nav li a").click(function(event) {
@@ -1187,7 +1184,7 @@
 	max-height: 500px;
 	margin-bottom: 20px;
 	margin-top: 50px;
-	/* overflow: hidden */;
+	overflow: hidden;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -1199,23 +1196,22 @@
 .carousel .carousel-item {
 	/* max-height: 100%; */
 	max-height: 500px;
-	width : auto;
-	/* overflow: hidden; */
+	/* width : auto; */
+	overflow: hidden;
 	background-color: #777;
 }
 
 .carousel-inner>.carousel-item>img {
 	/*  position: absolute;*/
-	/* overflow: hidden; */
-	/* top: 0;
-	left: 0; */
+	overflow: hidden;
+	top: 0;
+	left: 0;
 	/* min-width: 40%;
   max-width: 100%; */
 	max-height: 100%;
 	width: auto;
-	display: block;
-	/* margin-right: auto;
-	margin-left: auto; */
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .customoverlay {
