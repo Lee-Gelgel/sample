@@ -2,7 +2,7 @@
 <html lang="ko" xmlns:th="http://www.thymeleaf.org">
 <%@ page language="java" contentType="text/html; charset=UTF-8"%>
 <head>
-<title>오대산 힐링타운 은빛동</title>
+<title>은빛동</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet"
@@ -21,7 +21,7 @@
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-		<a class="navbar-brand" href="#home"><strong>오대산 힐링타운 은빛동</strong></a>
+		<a class="navbar-brand" href="#home"><strong class="font_gray"  style="font-size: 16.5px;">오대산 힐링타운 은빛동</strong></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
 			data-target="#navbarSupportedContent"
 			aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -61,6 +61,43 @@
 		</div>
 	</nav>
 	<div id="home"></div>
+	<div class="d-none d-sm-block">
+	<div id="carouselExampleIndicators2" class="carousel slide" style="width: 80%"
+		data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#carouselExampleIndicators2" data-slide-to="0"
+				class="active"></li>
+			<li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+		</ol>
+			
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img class="d-block w-100" src="/static/images/main_house3.png"
+							alt="First slide">
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="/static/images/main_msg3.jpg"
+							alt="Second slide">
+					</div>
+				</div>
+				
+
+		<a class="carousel-control-prev" href="#carouselExampleIndicators2"
+			role="button" data-slide="prev"> <span
+			class="carousel-control-prev-icon" aria-hidden="true"></span> <span
+			class="sr-only">Previous</span>
+		</a> <a class="carousel-control-next" href="#carouselExampleIndicators2"
+			role="button" data-slide="next"> <span
+			class="carousel-control-next-icon" aria-hidden="true"></span> <span
+			class="sr-only">Next</span>
+		</a>
+	</div>
+	</div>
+	
+	
+	
+	
+	<div class="d-block d-sm-none">
 	<div id="carouselExampleIndicators" class="carousel slide"
 		data-ride="carousel">
 		<ol class="carousel-indicators">
@@ -68,16 +105,20 @@
 				class="active"></li>
 			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
 		</ol>
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<img class="d-block w-100" src="/static/images/main_house3.png"
-					alt="First slide">
-			</div>
-			<div class="carousel-item">
-				<img class="d-block w-100" src="/static/images/main_msg3.jpg"
-					alt="Second slide">
-			</div>
-		</div>
+			
+			
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img class="d-block w-100" src="/static/images/main_house.png"
+							alt="First slide">
+					</div>
+					<div class="carousel-item">
+						<img class="d-block w-100" src="/static/images/main_msg.jpg"
+							alt="Second slide">
+					</div>
+				</div>
+				
+
 		<a class="carousel-control-prev" href="#carouselExampleIndicators"
 			role="button" data-slide="prev"> <span
 			class="carousel-control-prev-icon" aria-hidden="true"></span> <span
@@ -88,7 +129,7 @@
 			class="sr-only">Next</span>
 		</a>
 	</div>
-
+</div>
 
 	<div class="container marketing">
 
@@ -96,7 +137,7 @@
 
 		<div class="row featurette" id="intro">
 			<div class="col-md-12">
-				<h2 class="featurette-heading">
+				<h2 class="featurette-heading font_gray">
 					l 은빛동소개
 					<!-- <span class="text-muted">It'll blow your mind.</span> -->
 				</h2>
@@ -124,10 +165,11 @@
 		</div>
 
 		<hr>
-		<h2 class="featurette-heading" id="info1">
+		<h2 class="featurette-heading font_gray" id="info1">
 			l 객실소개
 			<!-- <span class="text-muted">It'll blow your mind.</span> -->
 		</h2>
+		<br>
 		<p style="font-size: 17px; text-align: center;" class="lead" >오대산 힐링타운 은빛동은 전 객실에 편백나무 벽지를 사용하여 숲속에 온 것 같은 편안함을 줍니다.</p>
 		<br>
 		<!-- Three columns of text below the carousel -->
@@ -651,6 +693,7 @@
 										<th>온돌방</th><th>5만원</th><th>6만원</th><th>7만원</th><th>8만원</th><th>2명</th><th>3명</th>
 									</tr>
 									</table>
+									<p></p>
 									<p> * 초과 인원은 1인당 1만원씩 추가 요금 있습니다.<br>* 성수기 : 7/31~8/15, 10/1~10/25</p>
 								</div>
 							</div>
@@ -663,7 +706,7 @@
 		</div>
 
 		<hr class="featurette-divider">
-		<h2 class="featurette-heading" id="gotomap">
+		<h2 class="featurette-heading font_gray" id="gotomap">
 			l 오시는길
 			<!-- <span class="text-muted">See for yourself.</span> -->
 		</h2>
@@ -1201,11 +1244,12 @@
 /* Carousel base class */
 .carousel {
 	margin:auto;
-	width: 80%;
+	width: 100%;
 	margin-bottom: 20px;
 	margin-top: 50px;
 	overflow: hidden;
 }
+
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
 	z-index: 10;
@@ -1242,6 +1286,11 @@
 	border: 0;
 	box-shadow: 0px 1px 2px #888;
 }
+
+.font_gray {
+ color: gray;
+}
+
 
 .customoverlay a {
 	display: block;
