@@ -364,11 +364,6 @@
 										<div>냉장고</div>
 									</div>
 									<div align="center" style="display: inline-block;">
-										<img src="/static/icons/gas_stove.png" width="64px"
-											height="64px">
-										<div>가스렌지</div>
-									</div>
-									<div align="center" style="display: inline-block;">
 										<img src="/static/icons/hair_dryer.png" width="48px"
 											height="48px">
 										<div>헤어드라이</div>
@@ -379,24 +374,9 @@
 										<div>커피포트</div>
 									</div>
 									<div align="center" style="display: inline-block;">
-										<img src="/static/icons/microwave.png" width="64px"
-											height="64px">
-										<div>전자렌지</div>
-									</div>
-									<div align="center" style="display: inline-block;">
-										<img src="/static/icons/ricecooker.png" width="64px"
-											height="64px">
-										<div>전기밥솥</div>
-									</div>
-									<div align="center" style="display: inline-block;">
 										<img src="/static/icons/televison.png" width="48px"
 											height="48px">
 										<div>TV</div>
-									</div>
-									<div align="center" style="display: inline-block;">
-										<img src="/static/icons/tooth_brush.png" width="48px"
-											height="48px">
-										<div>어메니티</div>
 									</div>
 									<div align="center" style="display: inline-block;">
 										<img src="/static/icons/wi-fi.png" width="48px" height="48px">
@@ -471,11 +451,6 @@
 										<div>냉장고</div>
 									</div>
 									<div align="center" style="display: inline-block;">
-										<img src="/static/icons/gas_stove.png" width="64px"
-											height="64px">
-										<div>가스렌지</div>
-									</div>
-									<div align="center" style="display: inline-block;">
 										<img src="/static/icons/hair_dryer.png" width="48px"
 											height="48px">
 										<div>헤어드라이</div>
@@ -486,24 +461,9 @@
 										<div>커피포트</div>
 									</div>
 									<div align="center" style="display: inline-block;">
-										<img src="/static/icons/microwave.png" width="64px"
-											height="64px">
-										<div>전자렌지</div>
-									</div>
-									<div align="center" style="display: inline-block;">
-										<img src="/static/icons/ricecooker.png" width="64px"
-											height="64px">
-										<div>전기밥솥</div>
-									</div>
-									<div align="center" style="display: inline-block;">
 										<img src="/static/icons/televison.png" width="48px"
 											height="48px">
 										<div>TV</div>
-									</div>
-									<div align="center" style="display: inline-block;">
-										<img src="/static/icons/tooth_brush.png" width="48px"
-											height="48px">
-										<div>어메니티</div>
 									</div>
 									<div align="center" style="display: inline-block;">
 										<img src="/static/icons/wi-fi.png" width="48px" height="48px">
@@ -591,30 +551,29 @@
 									</div>
 									<div align="left">
 										<div align="center" style="display: inline-block;">
-											<img src="/static/icons/air_conditioner.png" width="64px"
+											<img src="/static/icons/fan.png" width="64px"
 												height="64px">
-											<div>에어컨</div>
+											<div>선풍기</div>
 										</div>
 										<div align="center" style="display: inline-block;">
-											<img src="/static/icons/fridge.png" width="64px"
+											<img src="/static/icons/water_purifier.png" width="64px"
 												height="64px">
-											<div>냉장고</div>
+											<div>냉온수기</div>
+										</div>
+										<div align="center" style="display: inline-block;">
+											<img src="/static/icons/barbecue.png" width="64px"
+												height="64px">
+											<div>자이글</div>
+										</div>
+										<div align="center" style="display: inline-block;">
+											<img src="/static/icons/medicine.png" width="64px"
+												height="64px">
+											<div>비상약품</div>
 										</div>
 										<div align="center" style="display: inline-block;">
 											<img src="/static/icons/gas_stove.png" width="64px"
 												height="64px">
-											<div>가스렌지</div>
-										</div>
-										<div align="center" style="display: inline-block;">
-											<img src="/static/icons/hair_dryer.png" width="48px"
-												height="48px">
-											<div>헤어드라이</div>
-										</div>
-
-										<div align="center" style="display: inline-block;">
-											<img src="/static/icons/kettle.png" width="64px"
-												height="64px">
-											<div>커피포트</div>
+											<div>전기렌지</div>
 										</div>
 										<div align="center" style="display: inline-block;">
 											<img src="/static/icons/microwave.png" width="64px"
@@ -622,28 +581,8 @@
 											<div>전자렌지</div>
 										</div>
 										<div align="center" style="display: inline-block;">
-											<img src="/static/icons/ricecooker.png" width="64px"
-												height="64px">
-											<div>전기밥솥</div>
-										</div>
-										<div align="center" style="display: inline-block;">
-											<img src="/static/icons/televison.png" width="48px"
-												height="48px">
-											<div>TV</div>
-										</div>
-										<div align="center" style="display: inline-block;">
-											<img src="/static/icons/tooth_brush.png" width="48px"
-												height="48px">
-											<div>어메니티</div>
-										</div>
-										<div align="center" style="display: inline-block;">
 											<img src="/static/icons/wi-fi.png" width="48px" height="48px">
 											<div>와이파이</div>
-										</div>
-										<div align="center" style="display: inline-block;">
-											<img src="/static/icons/twin_bed.png" width="48px"
-												height="48px">
-											<div>침대</div>
 										</div>
 									</div>
 								</div>
@@ -694,7 +633,7 @@
 									</tr>
 									</table>
 									<p></p>
-									<p> * 초과 인원은 1인당 1만원씩 추가 요금 있습니다.<br>* 성수기 : 7/31~8/15, 10/1~10/25</p>
+									<p>* 조금의 변동사항이 있을 수 있습니다. 전화문의주세요.<br>* 초과 인원은 1인당 1만원씩 추가 요금 있습니다.<br>* 성수기 : 7/31~8/15, 10/1~10/25</p>
 								</div>
 							</div>
 						</div>
@@ -1221,7 +1160,7 @@
 
 	// 커스텀 오버레이에 표출될 내용으로 HTML 문자열이나 document element가 가능합니다
 	var content = '<div class="customoverlay">'
-			+ '  <a href="http://map.daum.net/link/map/11394059" target="_blank">'
+			+ '  <a href="http://map.daum.net/link/map/1802112010" target="_blank">'
 			+ '    <span class="title">오대산 힐링타운<br>은빛동</span>' + '  </a>'
 			+ '</div>';
 
