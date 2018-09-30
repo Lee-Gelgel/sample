@@ -170,7 +170,7 @@
 			<!-- <span class="text-muted">It'll blow your mind.</span> -->
 		</h2>
 		<br>
-		<p style="font-size: 17px; text-align: center;" class="lead" >오대산 힐링타운 은빛동은 전 객실에 편백나무 벽지를 사용하여 숲속에 온 것 같은 편안함을 줍니다.</p>
+		<p style="font-size: 17px; text-align: center;" class="lead" >오대산 힐링타운 은빛동은 전 객실에 편백나무를 사용하여 숲속에 온 것 같은 편안함을 줍니다.</p>
 		<br>
 		<!-- Three columns of text below the carousel -->
 		<div class="row">
@@ -626,7 +626,7 @@
 										<th>침대방(트윈)</th><th>6만원</th><th>7만원</th><th>8만원</th><th>9만원</th><th>2명</th><th>3명</th>
 									</tr>
 									<tr>
-										<th>침대방(싱글)</th><th>5만원</th><th>6만원</th><th>7만원</th><th>8만원</th><th>2명</th><th>3명</th>
+										<th>침대방(퀸)</th><th>5만원</th><th>6만원</th><th>7만원</th><th>8만원</th><th>2명</th><th>3명</th>
 									</tr>
 									<tr>
 										<th>온돌방</th><th>5만원</th><th>6만원</th><th>7만원</th><th>8만원</th><th>2명</th><th>3명</th>
